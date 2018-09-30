@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+	font: 400 16px/1.2 'Lato', sans-serif;
+	color: #000000;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0 0 20px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+	display: inline-block;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {}
+
+textarea {}
+
+/* Layout */
+.ba-container {
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.ba-intro {
+	background: #ae7e68 url(../img/main-image.jpeg) no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+	padding: 250px 0;
+}
+
+.ba-intro-title-2 {
+	/* font: 700 36px/1.2 "Times New Roman" serif; */
+	font-style: italic;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	letter-spacing: 1.8px;
+	opacity: 0.6;
+	font-family: 'Times New Roman';
+	font-weight: 700;
+	font-size: 36px;
+	letter-spacing: 1.8px;
+
+}
+
+.ba-intro-title-1 {
+	font: 700 100px/1.2 Lato, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	letter-spacing: 1.8px;
+}
+
+.ba-button {
+	display: inline-block;
+	text-decoration: none;
+	padding: 25px 80px;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: #ffffff solid 3px;
+	margin-bottom: 40px;
+
+}
+
+.ba-intro p {
+	color: #ffffff;
+	font-size: 14px;
+	text-transform: uppercase;
+	opacity: 0.95;
+
+}
+
+.ba-intro p a {
+	color: #ffffff;
+	font-weight: 700;
+
+}
+
+.ba-header {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+}
+
+.ba-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.ba-menu {
+	display: flex;
+	list-style: none;
+}
+
+.ba-menu a {
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+}
+
+.ba-menu li+li {
+	padding-left: 30px;
+}
+
+.ba-menu li:hover {
+	opacity: 0.7;
+	border-bottom: rgb(225, 225, 225, 0.7) solid 1px;
+}
+
+.ba-button:hover {
+	background-color: rgba(206, 124, 124, 0.7);
+}
+.ba-intro p a:hover{
+	color:rgba(206, 124, 124, 0.7);
+	text-decoration: none;
+}
